@@ -1,0 +1,38 @@
+<resources>
+
+    <style name="easy_dialog_normal_style" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- Floating -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- No Title -->
+        <item name="windowNoTitle">true</item>
+        <!-- Used for the buttons -->
+        <item name="colorAccent">@android:color/holo_blue_light</item>
+        <!-- Used for the title -->
+        <item name="android:windowTitleStyle">@style/title_text_style</item>
+        <!-- Used for the message text -->
+        <item name="android:textColorPrimary">@android:color/darker_gray</item>
+        <!-- Used for the item text -->
+        <item name="android:textColorAlertDialogListItem">@android:color/darker_gray</item>
+        <!-- Used for the background -->
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+    <style name="dialog_no_title_style" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- Floating -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- No Title -->
+        <item name="windowNoTitle">true</item>
+        <!-- Used for the background -->
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+    <!-- For Title -->
+    <style name="title_text_style">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Title</item>
+    </style>
+
+</resources>
